@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+body{
+ display: flex;
+ justify-content: center;
+ height: 2000px;
+}
+
+#container{
+margin: 150px;
+
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: 80px;
+    border: none;
+    height: 300px;
+    width: 300px;
+    color: white;
+    background-color: black;
+
+}
+
+
+#first-div{
+    animation: first ;
+    animation: first-back;
+    opacity: 0;
+    /* transform: translateX(-100rem); */
+}
+#second-div{
+    animation: second ;
+    animation: second-back;
+    opacity: 0;
+}
+#third-div{
+    animation: third ;
+    animation: third-back ;
+    opacity: 0;
+}
+#fourth-div{
+    animation: fourth ;
+    animation: fourth-back ;
+    opacity: 0;
+    
+}
+@keyframes first {
+    0% {
+        opacity: 0;
+        transform: translateX(-100rem);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+@keyframes first-back {
+    100% {
+        opacity: 0;
+        transform: translateX(-100rem);
+      }
+    
+      0% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+
+@keyframes second {
+    0% {
+        opacity: 0;
+        transform: translateX(100rem);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+@keyframes second-back {
+    100% {
+        opacity: 0;
+        transform: translateX(100rem);
+      }
+    
+      0% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+
+@keyframes third {
+    0% {
+        opacity: 0;
+        transform: translateX(-100rem);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+@keyframes third-back {
+    100% {
+        opacity: 0;
+        transform: translateX(-100rem);
+      }
+    
+      0% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+
+@keyframes fourth {
+    0% {
+        opacity: 0;
+        transform: translateX(100rem);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+@keyframes fourth-back {
+    100% {
+        opacity: 0;
+        transform: translateX(100rem);
+      }
+    
+      0% {
+        opacity: 1;
+        transform: translateX(0rem);
+      }
+    
+}
+
+/* @media only screen and (min-width: 500px) {
+    body{
+        background-color: rebeccapurple;
+    }
+   
+  } */
